@@ -9,6 +9,12 @@ import SwiftUI
 
 let backgroundGradient = LinearGradient(colors: [.magBlue, .magDark], startPoint: .top, endPoint: .bottom)
 
+//struct TimeView: View {
+    //@State private var seconds: Double = 0
+    
+    
+//}
+
 struct SongView: View {
     // @EnvironmentObject var song: Song
     @State private var isPlaying: Bool = false
