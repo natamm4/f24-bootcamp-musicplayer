@@ -23,6 +23,9 @@ struct SongView: View {
     @State private var isLiked: Bool = false
     
     @State private var seconds: Double = 0
+    
+    //@State private var songMinTotal: Double =
+    //@State private var songSecTotal: Int
     //@State private var currentTimeSec: Double = 0
     //@State private var songLengthSec: Double = 233
     //@State private var currentTime: String = "\((currentTimeSec%60)):((currentTimeSec
@@ -51,6 +54,10 @@ struct SongView: View {
             //return
         //}
         //self.value.value = roundedValue
+    //}
+    
+    //var currentTime: Double {
+        //return
     //}
     
     var body: some View {
